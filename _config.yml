@@ -2,11 +2,12 @@
 title: grotesqoe
 description: grotesqoe blog
 
-url: https://grotesqoe.github.io/
+url: https://grotesqoe.github.io
 baseurl: /www
 
 permalink: pretty
-pagination: 10
+paginate: 10
+timezone: Asia/Jakarta
 
 plugins:
   - jekyll-seo-tag
