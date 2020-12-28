@@ -190,7 +190,7 @@ blockquote {
 }
   
 /* layout */
-.container {
+#container {
   max-width: 720px;
   padding-left: var(--spacer);
   padding-right: var(--spacer);
