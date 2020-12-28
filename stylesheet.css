@@ -69,12 +69,12 @@ body {
 a {
   color: var(--link-color);
   text-decoration: none;
-  
-  &:hover,
-  &:focus {
-    color: var(--link-hover-color);
-    text-decoration: underline;
-  }
+}
+
+a:hover,
+a:focus {
+  color: var(--link-hover-color);
+  text-decoration: underline;
 }
 
 img {
@@ -166,11 +166,11 @@ abbr {
   font-weight: bold;
   color: var(--gray-600);
   text-transform: uppercase;
+}
 
-  &[title] {
-    cursor: help;
-    border-bottom: 1px dotted var(--border-color);
-  }
+abbr[title] {
+  cursor: help;
+  border-bottom: 1px dotted var(--border-color);
 }
 
 /*
