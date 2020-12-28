@@ -1,0 +1,21 @@
+# site config
+title: grotesqoe
+description: grotesqoe blog
+
+url: https://grotesqoe.github.io/
+baseurl: /www
+
+permalink: pretty
+pagination: 10
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  
+author:
+  name: grotesqoe
+  email: grotesqoe@gmail.com
+  
+version: 1.0.0
