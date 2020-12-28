@@ -7,3 +7,13 @@
   margin-left:  auto;
   margin-right: auto;
 }
+
+.main-header,
+.main-footer {
+  padding-top: $spacer;
+  padding-bottom: $spacer;
+}
+
+.main-header {
+  border-bottom: 1px solid $border-bottom;
+}
