@@ -55,6 +55,8 @@
 }
 
 body {
+  padding: 0;
+  margin: 0;
   color: var(--base-fg-color);
   background-color: var(--base-bg-color);
   font-family: var(--font-sans);
