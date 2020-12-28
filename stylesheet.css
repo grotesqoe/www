@@ -194,7 +194,18 @@ blockquote {
   margin-right: auto;
 }
 
+.main-header,
+.main-footer {
+  margin-top: var(--spacer-3);
+  margin-bottom: var(--spacer-3);
+}
+  
 
+.main-header {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid var(--border-color);
+}
 
 
 
