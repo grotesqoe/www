@@ -10,10 +10,14 @@
 
 .main-header,
 .main-footer {
-  padding-top: $spacer-2;
-  padding-bottom: $spacer-2;
+  margin-top: $spacer-2;
+  margin-bottom: $spacer-2;
 }
 
 .main-header {
   border-bottom: 1px solid $border-color;
+}
+
+.main-footer {
+  border-top: 1px solid $border-color;
 }
