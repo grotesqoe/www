@@ -57,7 +57,7 @@
 body {
   color: var(--base-fg-color);
   background-color: var(--base-bg-color);
-  font-family: var(--font-family-sans);
+  font-family: var(--font-sans);
   font-size: var(--base-font-size);
   line-height: var(--base-line-height);
   -webkit-text-size-adjust: 100%;
@@ -66,10 +66,12 @@ body {
 
 a {
   color: var(--link-color);
+  text-decoration: none;
   
   &:hover,
   &:focus {
     color: var(--link-hover-color);
+    text-decoration: underline;
   }
 }
 
