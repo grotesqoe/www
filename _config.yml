@@ -1,5 +1,5 @@
 # site config
-title: grotesqoe
+title: Grotesqoe
 description: grotesqoe blog
 
 url: https://grotesqoe.github.io
@@ -18,7 +18,8 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
-  
+
+# author info
 author:
   name: grotesqoe
   email: grotesqoe@gmail.com
