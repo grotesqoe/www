@@ -12,7 +12,7 @@ Beberapa opsi format untuk membuat konten yang tidak di dukung markdown dan seo 
 </figure>
 
 ```
-figure>
+<figure>
   <img src="https://source.unsplash.com/amjx9fJjTIM" alt="buah buahan segar">
   <figcaption>caption image</figcaption>
 </figure>
