@@ -71,7 +71,43 @@ pre {
   overflow: auto;
 }
 
+.highlight {
+  padding: $spacer;
+  margin-bottom: $spacer;
+  background-color: $gray-000;
+  border-radius: $border-radius;
 
+  pre {
+    margin-bottom: 0;
+  }
+
+  // Triple backticks (code fencing) doubles the .highlight elements
+  .highlight {
+    padding: 0;
+  }
+}
+
+.rouge-table {
+  margin-bottom: 0;
+  font-size: 100%;
+
+  &,
+  td,
+  th {
+    border: 0;
+  }
+
+  .gutter {
+    vertical-align: top;
+    user-select: none;
+    opacity: .25;
+  }
+}
+
+// Gist via GitHub Pages
+.gist .markdown-body {
+  padding: 15px !important;
+}
 
 
 
