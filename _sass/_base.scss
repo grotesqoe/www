@@ -54,3 +54,26 @@ th {
 thead th {
   border-bottom-color: currentColor;
 }
+
+code,
+pre {
+  font-family: $font-mono;
+}
+
+code {
+  font-size: 85%;
+}
+
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: $spacer;
+  overflow: auto;
+}
+
+
+
+
+
+
+
