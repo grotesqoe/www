@@ -6,10 +6,10 @@ title: Home
 <section>
   {% for post in paginator.posts %}
   <article>
-    <h1>
+    <time datetime="{{ post.date | date_to_xmlschema }}"><small>Published {{ post.date | date_to_string }}</small></time>
+    <h3>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </h1>
-    <time datetime="{{ post.date | date_to_xmlschema }}"><small>{{ post.date | date_to_long_string }}</small></time>
+    </h3>
   </article>
   {% endfor%}
 </section>
